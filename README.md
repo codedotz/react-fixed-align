@@ -1,6 +1,8 @@
-# react-fixed-align
-
 `react-fixed-align` is a very simple react component to create fixed positioned, full width and full height wrappper components. It uses `position: fixed` and `display: flex` internally which you could do this by yourself. Or if you are lazy enough (like me 🥱) to repeat this in your apps you could use the plugin. 😀✌️
+
+[![Build Status](https://travis-ci.org/codedotz/react-fixed-align.svg?branch=master)](https://travis-ci.org/codedotz/react-fixed-align)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ### Example
 
