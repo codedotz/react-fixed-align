@@ -17,13 +17,16 @@ function ReactFixedAlign({
   return (
     <El
       className={`${classNames.wrapper} ${className}`}
-      style={constructStyles(
-        enableXScroll,
-        enableYScroll,
-        middleAlign,
-        xAlign,
-        yAlign,
-        ...style
+      style={Object.assign(
+        {},
+        constructStyles(
+          enableXScroll,
+          enableYScroll,
+          middleAlign,
+          xAlign,
+          yAlign
+        ),
+        style
       )}
     >
       {children}
