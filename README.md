@@ -35,6 +35,6 @@ export default App;
 | className     | `string`  | -       | no       | Ddd additional styles                                 |
 | middleAlign   | `Boolean` | false   | no       | Middle align content                                  |
 | xAlign        | `String`  | "left"  | no       | Horizontally align content ["left", "center", "right] |
-| yAlign        | `String`  | "left"  | no       | Vertically align content ["top", "middle", "bottom]   |
+| style         | `Object`  | -       | no       | Override styles or add addtional styles               |
 
 ### ENJOY 😀🤚
