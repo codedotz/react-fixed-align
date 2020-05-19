@@ -29,6 +29,7 @@ export default App;
 
 | Prop          | Type      | Default | Required | Description                                           |
 | ------------- | --------- | ------- | -------- | ----------------------------------------------------- |
+| el            | `String`  | "div"   | no       | Wrapper element. Any html element                     |
 | enableXScroll | `Boolean` | false   | no       | Enable full width scrolling for content overflow      |
 | enableYScroll | `Boolean` | false   | no       | Enable full height scrolling for content overflow     |
 | className     | `string`  | -       | no       | Ddd additional styles                                 |

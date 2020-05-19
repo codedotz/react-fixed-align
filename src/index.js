@@ -12,6 +12,7 @@ function ReactFixedAlign({
   middleAlign = false,
   yAlign = "top",
   xAlign = "left",
+  style,
 }) {
   return (
     <El
@@ -21,7 +22,8 @@ function ReactFixedAlign({
         enableYScroll,
         middleAlign,
         xAlign,
-        yAlign
+        yAlign,
+        ...style
       )}
     >
       {children}
@@ -36,6 +38,7 @@ ReactFixedAlign.propTypes = {
   middleAlign: PropTypes.bool,
   yAlign: PropTypes.oneOf(["top", "middle", "bottom"]),
   xAlign: PropTypes.oneOf(["left", "center", "right"]),
+  style: PropTypes.object,
 };
 
 export default ReactFixedAlign;
